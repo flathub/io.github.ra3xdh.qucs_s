@@ -16,7 +16,7 @@ finish-args:
 modules:
   - name: dos2unix
     cleanup:
-      - "*"
+      - '*'
     no-autogen: true
     make-install-args:
       - prefix=${FLATPAK_DEST}
@@ -38,8 +38,8 @@ modules:
       - --without-x
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/43/ngspice-43.tar.gz
-        sha256: 14dd6a6f08531f2051c13ae63790a45708bd43f3e77886a6a84898c297b13699
+        url: https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/44/ngspice-44.tar.gz
+        sha256: 8fef0e80b324df1f6ac6c73a9ed9a4120a9a17b62c13e83e1f674a9d9e6a4142
         x-checker-data:
           type: anitya
           project-id: 20590
