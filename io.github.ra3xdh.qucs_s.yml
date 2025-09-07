@@ -38,8 +38,8 @@ modules:
       - --without-x
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/45/ngspice-45.tar.gz
-        sha256: f1aad8abac2828a7b71da66411de8e406524e75f3066e46755439c490442d734
+        url: https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/45.2/ngspice-45.2.tar.gz
+        sha256: ba8345f4c3774714c10f33d7da850d361cec7d14b3a295d0dc9fd96f7423812d
         x-checker-data:
           type: anitya
           project-id: 20590
@@ -52,8 +52,8 @@ modules:
       - -DWITH_QT6=ON
     sources:
       - type: archive
-        url: https://github.com/ra3xdh/qucs_s/releases/download/25.1.2/qucs-s-25.1.2.tar.gz
-        sha256: 5b8185befa201a2811c4177277297bf0a013f775b6ab600a4ae67576aa5f7f02
+        url: https://github.com/ra3xdh/qucs_s/releases/download/25.2.0/qucs-s-25.2.0.tar.gz
+        sha256: f88ac0e987555ac95e907bea211c4d3aeaea87085ed0cd76cfd52fa185971c42
         x-checker-data:
           type: anitya
           project-id: 270911
