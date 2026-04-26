@@ -52,8 +52,8 @@ modules:
       - -DWITH_QT6=ON
     sources:
       - type: archive
-        url: https://github.com/ra3xdh/qucs_s/releases/download/26.1.0/qucs-s-26.1.0.tar.gz
-        sha256: 1302798164ce73235b22eeb69909e2b4350320c596e01986db7cdc6f43921532
+        url: https://github.com/ra3xdh/qucs_s/releases/download/26.1.1/qucs-s-26.1.1.tar.gz
+        sha256: 8f898fca5a738383ddeefdcda8f552ea60d966e8f89d9e378e6e10cf174fb06e
         x-checker-data:
           type: anitya
           project-id: 270911
